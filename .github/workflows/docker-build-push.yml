@@ -21,6 +21,6 @@ jobs:
       - name: Build & Push to Docker hub
         uses: docker/build-push-action@v6
         with:
-          context: .
+        context: .
           push: true
-          tags: komalmankari/github-actions-app:main
+          tags: komal/github-actions-app:main
